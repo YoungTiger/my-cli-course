@@ -24,7 +24,7 @@ This is great for tasks you do often and don't want to type out a long prompt ev
 
 ### Prompt 1: Implement Feature
 ```
-/implement-feature 5
+/implement-feature 1
 ```
 
 ## Shell Mode
