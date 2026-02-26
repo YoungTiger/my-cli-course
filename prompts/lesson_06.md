@@ -49,12 +49,12 @@ gemini extensions install https://github.com/gemini-cli-extensions/workspace
 
 ### Prompt 1: Read Conference Schedule
 ```
-Can you read my "Conference Schedule" doc and list me the current schedule for the TechStack conference
+내 “Conference Schedule” 문서를 읽고, TechStack 컨퍼런스의 현재 일정표를 나열해줄 수 있어? (Can you read my "Conference Schedule" doc and list me the current schedule for the TechStack conference)
 ```
 
 ### Prompt 2: Create Calendar Holds
 ```
-Can you go ahead and put a hold for me on my calendar for each session? With the title being [HOLD]: title of session.
+각 세션마다 내 캘린더에 미리 일정 보류(홀드)를 걸어줄래? 제목은 [HOLD]: 세션 제목 형식으로 해줘 (Can you go ahead and put a hold for me on my calendar for each session? With the title being [HOLD]: title of session.)
 ```
 
 > **Note:** For extensions with remote MCP servers, you may need to run `/mcp auth <serverName>` for authentication.
