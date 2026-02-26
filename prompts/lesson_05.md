@@ -45,12 +45,12 @@ gemini mcp add -t http canva https://mcp.canva.com/mcp
 
 ### Prompt 1: List Designs
 ```
-Can you list my most recent design?
+내가 가장 최근에 만든 디자인을 나열해줄 수 있어? (Can you list my most recent design?)
 ```
 
 ### Prompt 2: Create Social Kit Page
 ```
-Read the design's content and use it to create a /socials page for the website that has a social kit using @public/logo.svg as well as font, colors and social tag. Add a link to the social kit in the footer of the website.
+그 디자인의 내용을 읽고, @public/logo.svg를 사용한 소셜 키트(로고, 폰트, 색상, 소셜 태그 포함)가 있는 웹사이트의 /socials 페이지를 만들어줘. 그리고 웹사이트 푸터에 소셜 키트로 가는 링크를 추가해줘. (Read the design's content and use it to create a /socials page for the website that has a social kit using @public/logo.svg as well as font, colors and social tag. Add a link to the social kit in the footer of the website.)
 ```
 
 ## Optimizing MCP Usage
