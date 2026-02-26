@@ -12,20 +12,20 @@
 
 ### Prompt 1: Test Agent Memory (Before)
 ```
-What is my name?
+내 이름이 뭐야? (What is my name?)
 ```
 > The agent has no memory, so it can't know personal information.
 
 ### Adding Memory
 ```
-/memory add My name is Jack and I only like Purple on Tuesdays
+/memory add 내 이름은 OOO이고 화요일에는 보라색만 좋아해 (My name is OOO and I only like Purple on Tuesdays)
 ```
 
 Then run `/memory show` to verify the memory was saved.
 
 ### Prompt 2: Test Agent Memory (After)
 ```
-What is my name?
+내 이름이 뭐야? (What is my name?)
 ```
 > Now the agent uses its context to answer the query correctly.
 
